@@ -273,6 +273,7 @@ color: goldenrod;
     .contact-form{
         margin-left: 20%;
     }
+    
 
 
 }
@@ -330,5 +331,12 @@ color: goldenrod;
     form{
         background: black;
         bottom: 40;
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
     }
+    
 }
