@@ -322,8 +322,12 @@ color: goldenrod;
         margin-left: 60px;
     }
 
+    .contact-form{
+        max-width: 200px;
+        margin: auto;
+    }
+
     form{
-        max-width: 250px;
         background: black;
         bottom: 40;
     }
