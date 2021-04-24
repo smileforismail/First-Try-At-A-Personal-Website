@@ -53,6 +53,7 @@ color: goldenrod;
 .webContent {
     background-color: #0e0d0d;
     min-height: 100vh;
+    /* overflow: hidden; */
 }
 
 #linkedIn {
@@ -228,11 +229,20 @@ color: goldenrod;
     color:black;
 }
 
+.form{
+    background:rgb(0, 0, 0);
+}
+
 /* responsiveness */
 @media screen and (max-width: 1300px){
 
     .sidebar{
         width: 90px;
+
+    }
+
+    #linkedIn{
+        padding-top: 50;
     }
 
     .intro{
@@ -267,7 +277,7 @@ color: goldenrod;
 
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 600px){
 
     .sidebar{
         width: 60px;
@@ -278,13 +288,18 @@ color: goldenrod;
     }
 
     .title{
-        font-size: 2em;
+        font-size: 1.5em;
         font-weight: bold;
-        display: inline;
+        /* display: inline; */
+        padding: 10px;
     }
 
     .featured-title{
         margin-top: -100px;
+    }
+
+    .project-info{
+        font-size: 15px;
     }
 
     .portfolio-items-wrapper {
@@ -303,11 +318,13 @@ color: goldenrod;
     }
 
     .skills-chart-wrapper{
-        width: 300px;
-        margin-left: 40px;
+        max-width: 250px;
+        margin-left: 60px;
     }
 
-    .contact-form{
-        margin-left: 20%;
+    form{
+        max-width: 350px;
+        background: black;
+        bottom: 40;
     }
 }
