@@ -6054,7 +6054,7 @@ select:-webkit-autofill:focus {
 }
 
 .contact-form {
-    width: 100%;
+    width: 75%;
     padding-top: 5rem;
     display: block;
     position: relative
